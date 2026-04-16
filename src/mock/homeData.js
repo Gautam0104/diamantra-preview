@@ -22,7 +22,7 @@ const pickNewArrivals = mockProducts.slice(8, 16).map((p) => ({ ...p, isNewArriv
 // Sections fall through to their built-in defaults for imagery; we only set
 // videoUrl so the play-button overlay renders on video-section / video-cards.
 // /Animae_logo.webm is the only video asset in public/, reused as a stand-in.
-const PREVIEW_VIDEO = "/Animae_logo.webm";
+const PREVIEW_VIDEO = "/video.mp4";
 
 export const homePageSections = [
   {
