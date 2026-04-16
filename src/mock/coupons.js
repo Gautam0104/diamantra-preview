@@ -1,0 +1,33 @@
+export const mockCoupons = [
+  {
+    id: "c1",
+    code: "DIAMANTRA10",
+    title: "Flat ₹1,000 off on orders above ₹10,000",
+    description: "Use code DIAMANTRA10 at checkout",
+    minOrderValue: 10000,
+    discountType: "FIXED",
+    discountValue: 1000,
+    validTo: "2026-12-31T23:59:59Z",
+  },
+  {
+    id: "c2",
+    code: "FIRST15",
+    title: "15% off your first purchase",
+    description: "New customers get 15% off — capped at ₹5,000",
+    minOrderValue: 5000,
+    discountType: "PERCENTAGE",
+    discountValue: 15,
+    maxDiscount: 5000,
+    validTo: "2026-12-31T23:59:59Z",
+  },
+  {
+    id: "c3",
+    code: "FESTIVE25",
+    title: "Festive Sale: 25% off diamond rings",
+    description: "Auto-applied on eligible rings",
+    minOrderValue: 25000,
+    discountType: "PERCENTAGE",
+    discountValue: 25,
+    validTo: "2026-12-31T23:59:59Z",
+  },
+];
